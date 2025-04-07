@@ -388,30 +388,40 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
+  height: auto;
   }
   .blog-item2{
     background-image: url(./images/doctor02.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
+  height: auto;
   }
   .blog-item3{
     background-image: url(./images/corona-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
+  height: auto;
   }
   .blog-item4{
     background-image: url(./images/corona-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
+  height: auto;
   }
   .blog-item5{
     background-image: url(./images/doctor02.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
+  height: auto;
   }
 
   .footer-section{
@@ -535,6 +545,16 @@ body{
     .footer-btns {
       flex-direction: column;
       align-items: center;
+    }
+  }
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 1024px) {
+    body {
+      font-size: 15px;
     }
   }
   
