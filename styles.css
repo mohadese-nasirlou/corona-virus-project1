@@ -557,4 +557,15 @@ body{
       font-size: 15px;
     }
   }
+  @media (max-width: 768px) {
+    .orders-main table,
+    .orders-main thead,
+    .orders-main tbody,
+    .orders-main th,
+    .orders-main td,
+    .orders-main tr {
+      display: block;
+      width: 100%;
+    }
+   
   
