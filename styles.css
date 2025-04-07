@@ -363,7 +363,6 @@ body{
     display: grid;
     gap: 10px;
     grid-template-columns: 400px auto auto;
-    padding-top: 60px;
     height: 300px;
   }
   .blog-container >div{
