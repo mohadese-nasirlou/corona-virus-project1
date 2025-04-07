@@ -363,7 +363,7 @@ body{
     display: grid;
     gap: 10px;
     grid-template-columns: auto auto auto;
-    height: 300px;
+    height: auto;
   }
   .blog-container >div{
     background-color: aliceblue;
